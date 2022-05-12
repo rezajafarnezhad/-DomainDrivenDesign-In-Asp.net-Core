@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Clean_arch.Infrastructure</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Persistant.Ef\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean-arch.Contracts\Clean-arch.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

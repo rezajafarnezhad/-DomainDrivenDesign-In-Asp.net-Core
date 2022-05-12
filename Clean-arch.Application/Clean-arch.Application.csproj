@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Clean_arch.Application</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean-arch.Contracts\Clean-arch.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
+</Project>
